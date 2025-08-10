@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ejercicio 2 - Tienda Online</title>
+    <link rel="stylesheet" href="tienda.css" />
+    <script src="tienda.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda Online</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contenedor">
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#" data-category="all">Todas</a></li>
+                <li><a href="#" data-category="electronica">Electrónica</a></li>
+                <li><a href="#" data-category="ropa">Ropa</a></li>
+                <li><a href="#" data-category="hogar">Hogar</a></li>
+            </ul>
+        </aside>
+
+        <section class="articulos">
+            <h2>Catálogo de Productos</h2>
+            <div id="productos" class="grid-productos">
+                <!-- Productos se insertan aquí dinámicamente -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Tienda Online</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Noticias Tech Hoy</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Noticias Tech Hoy</h1>
+    <nav>
+      <ul id="filtros">
+        <li><button data-categoria="all" class="active">Todas</button></li>
+        <li><button data-categoria="software">Software</button></li>
+        <li><button data-categoria="hardware">Hardware</button></li>
+        <li><button data-categoria="innovacion">Innovación</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="muro" class="muro">
+      <article data-categoria="software" class="post">
+        <h2>Nuevo lanzamiento de sistema operativo</h2>
+        <p>El último sistema operativo promete revolucionar la industria con nuevas funciones.</p>
+        <a href="#" class="leer-mas">Leer más</a>
+      </article>
+      <article data-categoria="hardware" class="post">
+        <h2>Avances en procesadores cuánticos</h2>
+        <p>Investigadores han desarrollado un procesador cuántico más estable y eficiente.</p>
+        <a href="#" class="leer-mas">Leer más</a>
+      </article>
+      <article data-categoria="innovacion" class="post">
+        <h2>Innovaciones en inteligencia artificial</h2>
+        <p>Las nuevas técnicas de IA están cambiando la forma en que interactuamos con la tecnología.</p>
+        <a href="#" class="leer-mas">Leer más</a>
+      </article>
+      <!-- Más artículos -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Noticias Tech Hoy. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>

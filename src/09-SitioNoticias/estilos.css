@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #121212;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  color: #00adb5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav button {
+  background: none;
+  border: 2px solid #00adb5;
+  color: #00adb5;
+  padding: 8px 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover,
+nav button.active {
+  background-color: #00adb5;
+  color: #121212;
+}
+
+main {
+  flex: 1;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.muro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+  gap: 20px;
+}
+
+.post {
+  background-color: #222;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 0 10px #00adb5aa;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+  color: #00adb5;
+}
+
+.post p {
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.post a.leer-mas {
+  color: #00adb5;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.post a.leer-mas:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 15px 0;
+  color: #777;
+}

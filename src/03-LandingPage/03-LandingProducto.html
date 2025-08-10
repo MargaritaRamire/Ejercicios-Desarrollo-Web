@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Landing Page Producto</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Producto Increíble</h1>
+        <nav>
+            <a href="#contacto" class="btn">Contáctanos</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <img src="producto.jpg" alt="Producto destacado" />
+            <div class="hero-text">
+                <h2>La solución que estabas esperando</h2>
+                <p>Con nuestro producto podrás mejorar tu vida, de forma fácil y rápida.</p>
+                <button id="btnCompra" class="btn">Comprar ahora</button>
+            </div>
+        </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contáctanos</h2>
+            <form id="formContacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required />
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Producto Increíble. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

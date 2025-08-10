@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agencia Marketing Plus</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Agencia Marketing Plus</h1>
+    <nav>
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#clientes">Clientes</a></li>
+        <li><a href="#cotizacion">Cotización</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="servicios" class="servicios">
+      <h2>Servicios Destacados</h2>
+      <article>
+        <h3>Marketing Digital</h3>
+        <p>Estrategias SEO, campañas en redes sociales y publicidad online.</p>
+      </article>
+      <article>
+        <h3>Branding</h3>
+        <p>Creación y posicionamiento de marcas que conectan con tu audiencia.</p>
+      </article>
+      <article>
+        <h3>Diseño Web</h3>
+        <p>Desarrollo de sitios web atractivos y funcionales para tu negocio.</p>
+      </article>
+    </section>
+
+    <section id="clientes" class="clientes">
+      <h2>Clientes Anteriores</h2>
+      <ul>
+        <li>Empresa ABC</li>
+        <li>Startup XYZ</li>
+        <li>Comercio Local 123</li>
+      </ul>
+    </section>
+
+    <section id="cotizacion" class="cotizacion">
+      <h2>Formulario de Cotización</h2>
+      <form id="formCotizacion">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="servicio">Servicio interesado:</label>
+        <select id="servicio" name="servicio" required>
+          <option value="">Seleccione</option>
+          <option value="marketing">Marketing Digital</option>
+          <option value="branding">Branding</option>
+          <option value="diseno">Diseño Web</option>
+        </select>
+
+        <button type="submit">Enviar cotización</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Agencia Marketing Plus. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
